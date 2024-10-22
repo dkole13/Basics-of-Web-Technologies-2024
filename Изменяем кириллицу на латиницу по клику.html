@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Паспорт</title>
+    <style type="text/css">
+        body {
+        background-image: url(passport_template.png);
+        background-position: center-bottom;
+        background-repeat: no-repeat;
+        }
+        .issuer {
+        margin-top: 67px;
+        margin-left: 90px;
+        font: bold 90% serif;
+        }
+        .dateOfIssuing {
+        margin-top: 30px;
+        margin-left: 90px;
+        }
+        .code {
+        margin-top: -17px;
+        margin-left: 240px;
+        }
+        .surname {
+        margin-top: 187px;
+        margin-left: 180px;
+        }
+        .name {
+        margin-top: 27px;
+        margin-left: 180px;
+        }
+        .patronymic {
+        margin-top: 5px;
+        margin-left: 180px;
+        }
+        .sex {
+        margin-top: 5px;
+        margin-left: 165px;
+        }
+        .dateOfBirth {
+        margin-top: -20px;
+        margin-left: 250px;
+        }
+        .placeOfBirth {
+        margin-top: 5px;
+        margin-left: 180px;
+        }
+        .photo {
+        margin-top: -90px;
+        margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class='issuer' id="issuer">ОТДЕЛОМ УФМС РОССИИ<br>ПО УРЮПИНСКОМУ РАЙОНУ</div>
+    <div class="dateOfIssuing" id="dateOfIssuing">01.11.2019</div>
+    <div class="code" id="code">000-000</div>
+    <div class='surname' id="surname">ОЛЕЙНИК</div>
+    <div class='name' id="name">ДАРЬЯ</div>
+    <div class='patronymic' id="patronymic">КОНСТАНИНОВНА</div>
+    <div class='sex' id="sex">ЖЕН</div>
+    <div class='dateOfBirth' id="dateOfBirth">30.10.2005</div>
+    <div class='placeOfBirth' id="placeOfBirth">Г. УРЮПИНСК</div>
+    <div class='photo'><img src="photo.png" width="100" height="130"></div>
+    <script src="passportScript.js"></script>
+</body>
+</html>
