@@ -2,7 +2,7 @@
 
 https://dkole13.github.io/Basics-of-Web-Technologies-2024/
 
-[Считываем информацию из DOM](https://github.com/dkole13/Basics-of-Web-Technologies-2024/blob/main/DOM_JS.html)
+[Считываем информацию из DOM](/DOM_JS.html)
 
 Алгоритмическая задача: https://github.com/dkole13/Basics-of-Web-Technologies-2024/blob/main/algorithmic_problem.html
 
