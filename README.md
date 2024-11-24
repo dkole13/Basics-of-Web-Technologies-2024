@@ -8,4 +8,6 @@ https://dkole13.github.io/Basics-of-Web-Technologies-2024/
 
 [Изменяем кириллицу на латиницу по клику](cyrillic_to_latin.html)
 
-[Основной сайт](/planespotting/homePage.html)
+[Основной сайт -- неадаптивная версия](/planespotting/homePage.html)
+
+[Основной сайт -- адаптивная версия](/planespotting_adaptive/homePage.html)
