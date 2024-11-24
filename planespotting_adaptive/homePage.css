@@ -1,0 +1,26 @@
+.body {
+    background-color:rgba(255, 248, 220, 0.197);
+    color: rgb(58, 38, 18);
+}
+
+.btn.btn-primary.btn-sm.sendFormButton {
+    background-color: #F2632C;
+    color: bisque;
+    border-color: rgb(58, 38, 18);
+    border-radius: 5px;
+}
+
+.header-xs-sm-md {
+    color: #F2632C;
+    text-align: left;
+}
+
+.header-lg-xl {
+    color: bisque;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.to-the-top-btn {
+    color: #F2632C;
+}

@@ -1,0 +1,25 @@
+.body {
+    background-color:rgba(255, 248, 220, 0.197);
+    color: rgb(58, 38, 18);
+}
+
+.header {
+    color: #F2632C;
+}
+
+.syllabus {
+    background-color: bisque;
+    color:#F2632C;
+    padding: 3px;
+}
+
+.manufacturer-name {
+    background-color: #F2632C;
+    color: bisque;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.to-the-top-btn {
+    color: #F2632C;
+}

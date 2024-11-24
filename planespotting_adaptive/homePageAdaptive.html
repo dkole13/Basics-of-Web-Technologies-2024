@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Плейнспоттинг</title>
+    <link rel="stylesheet" href="homePage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Навигация</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resoursesAdaptive.html">Полезные ресурсы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="manufacturersAdaptive.html">Главные производители самолётов</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="identifyingAircraftAdaptive.html">Советы по определению модели самолёта</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="card d-none d-lg-block d-xl-block my-3">
+            <img class="card-img img-fluid" src="plane_sunset_cropped.jpg" alt="Самолёт на фоне заката" title="Самолёт на фоне заката">
+            <h1 class="display-4 card-img-overlay header-lg-xl mt-4">Плейнспоттинг — хобби тех,<br>кто без ума от самолётов</h1>
+        </div>
+        <div class="card d-block d-sm-block d-md-block d-lg-none">
+            <h1 class="card-img text-center header-xs-sm-md">Плейнспоттинг — хобби тех,<br>кто без ума от самолётов</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row d-flex flex-wrap align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <img class="img-fluid" src="planespotter.jpg" alt="Плейнспоттер">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8">
+                <p>Плейнспоттинг — это увлечение, которое стало популярным среди авиаторов и любителей авиации по всему миру. Оно заключается в наблюдении за самолетами, их фотографировании и документировании информации о различных воздушных судах. Живя в эпоху глобализации, мы все больше зависим от авиаперевозок, а плейнспоттинг позволяет увидеть этот мир живьем и стать частью авиационного сообщества.</p>
+                <p>Одним из основных элементов плейнспоттинга является выбор места для наблюдения за самолетами. Многие споттеры предпочитают аэропорты или специальные точки в их окрестностях, откуда открывается хороший вид на взлеты и посадки. Важно определить правильное время для наблюдения, так как рейсы могут сильно меняться. Поэтому многие плейнспоттеры отслеживают расписания авиакомпаний и работают с различными приложениями, чтобы поймать нужный рейс.</p> 
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8 order-2 order-lg-1">
+                <p>Фотографирование самолетов также играет ключевую роль в плейнспоттинге. Споттеры часто стремятся запечатлеть уникальные моменты и редкие самолеты, а затем делятся своими снимками в социальных сетях и специализированных форумах. Это создает возможность для общения с единомышленниками, обмена опытом и знаниями, а также знакомства с интересными людьми из разных уголков мира.</p>
+                <p>Кроме того, плейнспоттинг предлагает множество возможностей для изучения авиации, истории авиации и специфики работы авиакомпаний. Многие споттеры начинают интересоваться техническими аспектами самолетов, их моделями и производителями, что приводит к расширению кругозора и углублению знаний о данной области. В конечном итоге, плейнспоттинг — это не просто хобби, а целая культура, объединяющая людей через любовь к авиации и ей сопутствующему.</p>        
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 order-1 order-lg-2">
+                <img class="img-fluid" src="planespotters_in_uniform.jpg" alt="Плейнспоттеры">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="mt-5 mb-3">
+                <h2>Заполните форму ниже, чтобы получить гайд по распознаванию моделей самолётов и получать новости о споттингах рядом с Вами</h2>
+            </div>
+            <form action="https://www.bing.com/search?" target="_blank" id="form">
+                <input name="q" value="search" hidden>
+                <div class="my-3">
+                    <h4>Имя</h4>
+                    <input name="name" type="text">
+                </div>
+                <div class="my-3">
+                    <h4>Фамилия</h4>
+                    <input name="surname" type="text">
+                </div>
+                <div class="my-3"> 
+                    <h4>Сколько Вам лет?</h4>
+                    <input name="age" type="number">
+                </div>
+                <div class="my-3">
+                    <h4>Электронная почта</h4>
+                    <input name="email" type="email">
+                </div>
+                <div class="my-3">
+                    <h4>Какой у Вас опыт плейнспоттинга?</h4>
+                    <div class="my-1">
+                        <p><input name="experience" type="radio"> Я ничего не знаю о плейнспоттинге и хочу познакомиться с ним</p>
+                    </div>
+                    <div class="my-1">
+                        <p><input name="experience" type="radio"> У меня есть небольшой опыт, но я всё ещё многого не знаю</p>
+                    </div>
+                    <div class="my-1">
+                       <p><input name="experience" type="radio"> Я профессионально занимаюсь и горю этим делом</p> 
+                    </div>
+                    
+                </div>
+                <div class="my-3">
+                    <h4>Хотите ли Вы получать рассылку о ближайших споттингах?</h4>
+                    <input name="getUpdates" type="checkbox">         
+                    <label for="getUpdates">Хочу!</label>
+                </div>
+                <input id="date" value="" hidden>
+                <div class="my-3">
+                    <button class="btn btn-primary btn-sm sendFormButton" id="sendForm" type="button">Отправить!</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container m-3">
+            <a class="mx-3 to-the-top-btn" href="#top"><img src="arrow_up.png" width=15px height=15px></a><a class="to-the-top-btn" href="#top">Наверх</a>
+        </div>
+        
+        <script src="homePageScript.js"></script>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
