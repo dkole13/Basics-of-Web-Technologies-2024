@@ -10,4 +10,4 @@ https://dkole13.github.io/Basics-of-Web-Technologies-2024/
 
 [Основной сайт -- неадаптивная версия](/planespotting/homePage.html)
 
-[Основной сайт -- адаптивная версия](/planespotting_adaptive/homePageAdaptive.html)
+[Основной сайт -- адаптивная версия](planespotting_adaptive/homePageAdaptive.html)
