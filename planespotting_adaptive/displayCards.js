@@ -14,6 +14,7 @@ async function displayCards() {
     data.forEach(element => {
         const card = document.createElement('div');
         card.classList.add('card')
+        card.style.width = '250px'
 
         card.innerHTML = `
         <img style="width: 250px" class="card-img-top" src="${element['imageSrc']}" alt="${element['imageAlt']}">
