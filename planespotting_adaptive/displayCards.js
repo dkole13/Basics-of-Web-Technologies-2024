@@ -13,14 +13,13 @@ async function displayCards() {
 
     data.forEach(element => {
         const card = document.createElement('div');
+        card.classList.add('card')
 
         card.innerHTML = `
-        <div class="card">
-            <img class="card-img-top" src="${element['imageSrc']}" alt="${element['imageAlt']}">
-            <div class="card-body">
-                <a class="card-title" href="${element['link']}" target="_blank">${element['name']}</a>
-                <p class="card-text">${element['description']}</p>
-            </div>
+        <img class="card-img-top" src="${element['imageSrc']}" alt="${element['imageAlt']}">
+        <div class="card-body">
+            <a class="card-title" href="${element['link']}" target="_blank">${element['name']}</a>
+            <p class="card-text">${element['description']}</p>
         </div>
         `;
 
