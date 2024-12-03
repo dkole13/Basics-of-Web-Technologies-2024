@@ -1,0 +1,49 @@
+[
+    {
+        "imageSrc": "flightradar.png",
+        "imageAlt": "FlightRadar Logo",
+        "link": "https://www.flightradar24.com/",
+        "name": "flightradar24.com",
+        "description": "Сайт для отслеживания воздушного движения. Можно посмотреть, откуда и куда летит рейс, его скорость, высоту, бортовой номер, ливрею и многое другое."
+    }
+    ,
+    {
+        "imageSrc": "ruspotting_cropped.png",
+        "imageAlt": "Ruspotting.net Logo",
+        "link": "http://ruspotting.net/",
+        "name": "ruspotting.net",
+        "description": "Сообщество споттеров России."
+    }
+    ,
+    {
+        "imageSrc": "telegram_logo.jpg",
+        "imageAlt": "Споттинги России • анонсы и экскурсии",
+        "link": "https://t.me/russianspottings",
+        "name": "Споттинги России • анонсы и экскурсии",
+        "description": "Телеграм-канал с анонсами споттингов по всей России."
+    }
+    ,
+    {
+        "imageSrc": "planespotters_logo.png",
+        "imageAlt": "Planespotters Logo",
+        "link": "https://www.planespotters.net/",
+        "name": "planespotters.net",
+        "description": "Civil aviation database with 1 million photos and information on 50000 aircraft."
+    }
+    ,
+    {
+        "imageSrc": "planespotting_be_logo.png",
+        "imageAlt": "Planespotting.be Logo",
+        "link": "https://www.planespotting.be/",
+        "name": "planespotting.be",
+        "description": "Planespotting.be is a initiative by planespotters for planespotters."
+    }
+    ,
+    {
+        "imageSrc": "spotterguide_net_logo.jpg",
+        "imageAlt": "Spotterguide.net Logo",
+        "link": "https://www.spotterguide.net/",
+        "name": "spotterguide.net",
+        "description": "We are a worldwide community, providing planespotting airport guides for planespotters and aviation fans. Find the best places for watching the traffic."
+    }    
+]
