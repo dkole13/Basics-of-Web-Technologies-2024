@@ -16,7 +16,7 @@ async function displayCards() {
         card.classList.add('card')
 
         card.innerHTML = `
-        <img class="card-img-top" src="${element['imageSrc']}" alt="${element['imageAlt']}">
+        <img style="width: 250px" class="card-img-top" src="${element['imageSrc']}" alt="${element['imageAlt']}">
         <div class="card-body">
             <a class="card-title" href="${element['link']}" target="_blank">${element['name']}</a>
             <p class="card-text">${element['description']}</p>
