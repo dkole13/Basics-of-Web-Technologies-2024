@@ -1,15 +1,15 @@
 async function displayCards() {
-    let data = await fetch("data.json", {
+    let response = await fetch("data.json", {
         method: 'GET',
-        mode: 'cors',
-        // body: JSON.stringify(data)
+        mode: 'cors'
     }
     );
-    data = JSON.stringify(data);
+    data = response.text();
+    data = JSON.parse(data);
     console.log(data);
 
     const cardGroup = document.getElementById('card-group');
-    cardGroup.innerHTML = ``
+    cardGroup.innerHTML = ``;
 
     data.forEach(element => {
         const card = document.createElement('div');
