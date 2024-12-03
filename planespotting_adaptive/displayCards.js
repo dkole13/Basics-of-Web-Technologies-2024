@@ -4,7 +4,7 @@ async function displayCards() {
         mode: 'cors'
     }
     );
-    data = response.text();
+    data = await response.text();
     data = JSON.parse(data);
     console.log(data);
 
