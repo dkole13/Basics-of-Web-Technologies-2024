@@ -23,6 +23,8 @@ async function displayCards() {
             </div>
         </div>
         `;
+
+        cardGroup.appendChild(card)
     });
 }
 
