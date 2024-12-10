@@ -42,18 +42,18 @@
 
     <script>
         function find() {
-          var input, filter, ul, li, a, i, txtValue;
+          var input, filter, cardGroup, cards, i, txtValue;
           input = document.getElementById('searchBar');
           filter = input.value.toUpperCase();
           cardGroup = document.getElementById("card-group");
-          cardText = cardGroup.getElementsByTagName('card-text');
+          cards = cardGroup.getElementsByClassName('card');
         
-          for (i = 0; i < cardText.length; i++) {
-            txtValue = cardText.innerText;
+          for (i = 0; i < cards.length; i++) {
+            txtValue = cards[i].innerText;
             if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                cardText[i].style.display = "";
+                cards[i].style.display = "";
             } else {
-                cardText[i].style.display = "none";
+                cards[i].style.display = "none";
             };
           };
         };
